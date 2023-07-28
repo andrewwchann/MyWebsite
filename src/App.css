@@ -4,12 +4,16 @@ p {
 }
 h1 {
   margin: 0;
+  margin-top: 20px;
   margin-bottom: 20px;
+}
+body {
+  background-color: gray;
 }
 .intro {
   padding-top: 320px;
   padding-left: 300px;
-  padding-bottom: 410px;
+  padding-bottom: 430px;
 }
 
 .intro-desc-container {
@@ -30,6 +34,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   padding-left: 300px;
+  max-width: 2000px;
 }
 
 .about-container {
@@ -64,11 +69,8 @@ h1 {
 }
 .photo-container {
   display: flex;
-  max-width: 300px;
 }
-.photo {
-  width: 100%;
-}
+
 
 
 

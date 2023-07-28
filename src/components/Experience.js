@@ -1,4 +1,5 @@
 import React from 'react'
+import Reveal from './RevealAnimation.js'
 
 export default function Experience() {
     const experience = {
@@ -34,24 +35,26 @@ export default function Experience() {
     }
     return (
         <div className='experience'>
-            <h1 className='section-title'>Experience</h1>
-            <div className='exp-container'>
-                <div className='side-bar'>
-                    {/* needed arrow function in onClick to stop immediate rendering */}
-                    <button className='exp-button' onClick={() => handleClick('AE')}>American Eagle</button>
-                    <button className='exp-button' onClick={() => handleClick('FC')}>Fresh Co</button>
-                </div>
+            <Reveal>
+                <h1 className='section-title'>Experience</h1>
+                <div className='exp-container'>
+                    <div className='side-bar'>
+                        {/* needed arrow function in onClick to stop immediate rendering */}
+                        <button className='exp-button' onClick={() => handleClick('AE')}>American Eagle</button>
+                        <button className='exp-button' onClick={() => handleClick('FC')}>Fresh Co</button>
+                    </div>
 
-                <div className='exp-contents'>
-                    <h1 className='job-title'>{job.title}, {job.brand}</h1>
-                    <h2 className='job-length'>{job.length}</h2>
-                    <ul className='job-details'>
-                        {job.desc.map((item, index) => (
-                            <li key={index}>{item}</li>
-                        ))}
-                    </ul>
+                    <div className='exp-contents'>
+                        <h1 className='job-title'>{job.title}, {job.brand}</h1>
+                        <h2 className='job-length'>{job.length}</h2>
+                        <ul className='job-details'>
+                            {job.desc.map((item, index) => (
+                                <li key={index}>{item}</li>
+                            ))}
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </Reveal>
         </div>
 
     )
