@@ -6,6 +6,7 @@ const Reveal = ({ children }) => {
         hidden: { opacity: 0.5, y: 75 },
         reveal: { opacity: 1, y: 0 }
     }
+
     const ref = useRef(null);
     const inView = useInView(ref, {once: true});
     const mainControl = useAnimation();
@@ -22,7 +23,7 @@ const Reveal = ({ children }) => {
                 variants={{variants}}
                 initial={variants.hidden}
                 animate={mainControl}
-                transition={{duration: 0.5}}
+                transition={{duration: 1}}
             >
                 {children}
             </motion.div>

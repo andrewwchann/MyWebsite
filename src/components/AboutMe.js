@@ -1,6 +1,7 @@
 import React from 'react'
 import BlobPhoto from './BlobBorderPhoto'
 import Reveal from './RevealAnimation.js'
+import '../styles/AboutMe.css'
 
 export default function AboutMe() {
     // const technologies = ["Python3", "C++", "HTML and CSS", "Java Script", "React.js"]
@@ -8,7 +9,7 @@ export default function AboutMe() {
         <div className='about'>
             <div className='section-header'>
                 <Reveal>
-                    <h1 className='section-title'>About me</h1>
+                    <h1 className='section-title'>-- About me --</h1>
                 </Reveal>
             </div>
 
@@ -17,7 +18,8 @@ export default function AboutMe() {
                 <Reveal>
                     <div className='about-items'>
                         <p className='about-desc'>
-                            Currently, I am a 3rd year Software Engineering Coop student at the <a href='https://www.ualberta.ca/about/index.html'>University of Alberta</a>.
+                            Currently, I am a 3rd year Software Engineering Coop student at
+                            the <a href='https://www.ualberta.ca/about/index.html' style={{color: '#BB86FC', textDecoration: 0}} target='blank'>University of Alberta</a>.
                             I am eager to gain real experience in the tech industry to learn about real development and team work.
                         </p>
                         <p>

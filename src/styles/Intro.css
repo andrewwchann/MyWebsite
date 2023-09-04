@@ -1,0 +1,45 @@
+.intro {
+    margin-top: 320px;
+    margin-left: 15%;
+    /* margin-bottom: 400px; */
+  }
+  
+  .intro-desc-container {
+    max-width: 650px;
+  }
+  
+  .name {
+    font-size: 70px;
+    color: rgb(219, 219, 219);
+  }
+  
+  .interests {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .email-container {
+    margin-bottom: 315px;
+    margin-top: 20px;
+  }
+  .intro-email-icon {
+    padding-right: 5px;
+  }
+  .email-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: #BB86FC;
+    font-weight: bolder;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 15px 30px;
+    /* margin-top: 100px; */
+    border: 1px solid;
+    border-color: #BB86FC;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  .email-button:hover {
+    background-color: #252525;
+  }

@@ -1,0 +1,48 @@
+.sidebar {
+    display: flex;
+    position: fixed;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icons {
+    color: white;
+    height: 30px;
+    transition: color 0.30s;
+}
+
+.icons:hover {
+    color: #BB86FC;
+}
+
+/* FIX RESIZING AAAHHHH */
+@media only screen and (max-width: 920px) {
+    /* .sidebar {
+        display: flex;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: right;
+        top: 96.7%;
+    } */
+    .sidebar {
+        opacity: 0;
+    }
+    /* .icons {
+        display: flex;
+        align-items: center;
+        width: 15px;
+    } */
+
+    .icon-resized-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+    }
+
+}
