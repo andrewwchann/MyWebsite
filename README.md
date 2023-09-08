@@ -1,4 +1,4 @@
-##  <h1 align="center">Developer Webpage 😁</h1>
+##  <h1 align="center">Personal Webpage 😁</h1>
 
 <p align="center">This is the first iteration of my personal website (https://andrewwchann.github.io/MyWebsite/) built in React.</p>
 
