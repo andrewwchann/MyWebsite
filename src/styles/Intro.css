@@ -43,3 +43,28 @@
   .email-button:hover {
     background-color: #252525;
   }
+
+
+
+  .wave1 {
+    position: relative;
+    bottom: auto;
+    /* top: ; */
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    margin-bottom: 50;
+  }
+  
+  .wave1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 104px;
+  }
+  
+  .wave1 .shape-fill {
+    fill: #BB86FC;
+  }

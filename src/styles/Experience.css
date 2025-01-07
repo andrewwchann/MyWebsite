@@ -80,3 +80,18 @@
     margin: 0;
   }
   
+
+
+
+
+  .projects-container {
+    display: flex;
+    justify-content: center;
+  }
+  .project-contents {
+    color: rgb(219, 219, 219);
+    width: 800px;
+  }
+  .proj-photo {
+    width: 200px;
+  }

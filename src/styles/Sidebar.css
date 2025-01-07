@@ -15,7 +15,8 @@
 }
 
 .icons:hover {
-    color: #BB86FC;
+    /* color: #BB86FC; */
+    color: #FFEB3B
 }
 
 /* FIX RESIZING AAAHHHH */

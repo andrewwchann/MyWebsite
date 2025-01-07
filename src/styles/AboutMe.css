@@ -1,34 +1,105 @@
-.about {
-    display: flex;
+/* .about {
+    /* display: flex;
     flex-wrap: wrap;
     margin-left: 15%;
-    max-width: 2000px;
-  }
+    max-width: 2000px; */
+  /* } */
+.about-contents {
+  background-color: #BB86FC;
   
-  .about-container {
-    display: inline block;
-    clear: both;
-    width: 650px;
-  }
-  .about-items {
-    flex: 1;
-    margin-right: 20px;
-  }
-  .about-desc {
-    margin-bottom: 10px;
-  }
-  .section-header {
-    display: block;
-    clear: both;
-    width: 100%;
-  }
-  .section-title {
-    margin-top: 20px;
-    color: rgb(219, 219, 219);
-    font-size: 40px;
-  }
-  .tech-items {
-    font-size: 20px;
-    width: 300px;
-    color: rgb(219, 219, 219);
-  }
+}
+.about-container {
+  /* background-color: #BB86FC; */
+  /* display: inline block;
+  clear: both;
+  width: 650px; */
+
+  display: flex;
+  /* margin-left: 15%; */
+  /* max-width: 2000px; */
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+} */
+
+.about {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  min-height: 100vh; /* Makes the section take the full height of the viewport */
+}
+
+.about-contents {
+  display: flex;
+  flex-direction: column; /* Ensures contents stack vertically */
+  justify-content: center; /* Centers vertically within the about section */
+  align-items: center; /* Centers horizontally within the about section */
+  background-color: #BB86FC; /* Background color for this section */
+  width: 100%; /* Ensure it spans the full width */
+  padding: 20px; /* Optional: Add some spacing around the content */
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column; /* Ensures the items inside are stacked vertically */
+  align-items: center; /* Centers the content inside horizontally */
+  text-align: center; /* Ensures text inside is centered */
+  width: 700px; /* Set the width of the container */
+  margin: 20px 0; /* Add spacing around the container */
+}
+
+
+.about-items {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-desc {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  clear: both;
+  width: 100%;
+}
+
+.section-title {
+  margin-top: 20px;
+  color: rgb(219, 219, 219);
+  font-size: 50px;
+}
+
+.tech-items {
+  font-size: 20px;
+  width: 300px;
+  color: rgb(219, 219, 219);
+}
+
+.photo-and-content {
+  display: flex;
+  align-items: center;
+}
+
+.custom-shape-divider-top-1736219920 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1736219920 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 104px;
+}
+
+.custom-shape-divider-top-1736219920 .shape-fill {
+  fill: #BB86FC;
+}
