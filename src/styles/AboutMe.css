@@ -8,26 +8,28 @@
   background-color: #BB86FC;
   
 }
-.about-container {
-  /* background-color: #BB86FC; */
-  /* display: inline block;
-  clear: both;
-  width: 650px; */
+/* background-color: #BB86FC; */
+/* display: inline block;
+clear: both;
+width: 650px; */
 
+/* margin-left: 15%; */
+/* max-width: 2000px; */
+/* .about-container {
   display: flex;
-  /* margin-left: 15%; */
-  /* max-width: 2000px; */
   width: 700px;
   justify-content: center;
   align-items: center;
 } */
 
+/*
 .about {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically */
-  min-height: 100vh; /* Makes the section take the full height of the viewport */
-}
+  /* align-items: center; Centers vertically */
+  /* min-height: 100vh; Makes the section take the full height of the viewport */
+/* } */
+
 
 .about-contents {
   display: flex;

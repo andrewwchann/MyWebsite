@@ -11,8 +11,8 @@ export default function Footer() {
                 <p className='footer-text'>Develped and designed in React by Andrew Chan.</p>
                 {/* <h1>Develped and designed in React</h1>
                 <h1>by Andrew Chan.</h1> */}
-                <SideIcons className='icon-resized-page' />
             </Reveal>
+                <SideIcons className='icon-resized-page' />
         </div>
     )
 }
